@@ -1,0 +1,52 @@
+.logonlabs {
+    background: url(logonlabs.svg) center center no-repeat;
+    width: 4rem;
+    height: 1.4rem;
+    display: inline-block;
+    background-size: contain;
+    position: absolute;
+    top: 0.55rem;
+    right: 0.5rem;
+}
+
+.ll-login-fields {
+    float: left;
+    display: none;
+}
+
+.ll-error-message {
+    font-size: smaller;
+    color: red;
+    margin-bottom: 1rem;
+}
+
+.ll-login-fields.visible {
+    display: block;
+}
+
+.ll-login-button {
+    position: relative;
+    width: 10.5rem;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    margin: 3.5rem 0 0;
+    padding: .5rem;
+    border-radius: 2px;
+    display: block;
+    cursor: pointer;
+}
+
+#logonlabs-ui {
+    justify-content: flex-start;
+    background: none!important;
+    margin: 0 0 1rem;
+}
+
+#logonlabs-ui.icon {
+    flex-wrap: wrap;
+}
+
+
+#logonlabs-ui.icon .item {
+    margin-bottom: .25rem !important;
+}
